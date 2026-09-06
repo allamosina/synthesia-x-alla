@@ -75,3 +75,8 @@ td strong{font-weight:600;color:#272c45}
 .sparkles span:nth-child(3){font-size:8px;right:1px;bottom:0;animation-delay:1.4s}
 @keyframes sparkle-twinkle{0%,65%,100%{opacity:.35;transform:scale(.75)}30%{opacity:1;transform:scale(1.12)}}
 @media(prefers-reduced-motion:reduce){.sparkles span{animation:none;opacity:.8;transform:none}}
+
+@font-face{font-family:"Basier Square";src:url("https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d710/65e89895c5a4b8d764c0e21d_6527f9cf2cfe9fad38bd66bc_basiersquare-regular-webfont.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:"Basier Square";src:url("https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d710/65e89895c5a4b8d764c0e21e_6527f9cf2cfe9fad38bd66bd_basiersquare-medium-webfont.woff2") format("woff2");font-style:normal;font-weight:500 900;font-display:swap}
+:root{font-family:"Basier Square",Arial,Helvetica,sans-serif}
+.hero h1{font-weight:500}
