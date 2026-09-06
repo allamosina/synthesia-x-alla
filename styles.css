@@ -80,3 +80,8 @@ td strong{font-weight:600;color:#272c45}
 @font-face{font-family:"Basier Square";src:url("https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d710/65e89895c5a4b8d764c0e21e_6527f9cf2cfe9fad38bd66bd_basiersquare-medium-webfont.woff2") format("woff2");font-style:normal;font-weight:500 900;font-display:swap}
 :root{font-family:"Basier Square",Arial,Helvetica,sans-serif}
 .hero h1{font-weight:500}
+
+/* Keep supporting evidence readable in Basier Square. */
+.card>p,.card-result p,details p{font-size:1rem;line-height:1.65}
+.card-result strong{line-height:1.35}
+.hero h1{text-wrap:balance}
