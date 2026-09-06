@@ -6,4 +6,4 @@ Preview: `python3 -m http.server 4173`
 
 GitHub Pages: select **GitHub Actions** under repository Settings → Pages. The included workflow publishes on pushes to `main`.
 
-The CV link is intentionally absent until the PDF is supplied. Add it under `assets/` and add download links in the hero and closing section. Employer names currently use text wordmarks.
+The supplied CV and employer logos live in `assets/`. Download CV links appear in the hero and closing section.
