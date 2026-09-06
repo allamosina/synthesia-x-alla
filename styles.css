@@ -50,3 +50,13 @@ td strong{font-weight:600;color:#272c45}
 .strength-check{display:inline-flex;align-items:center;gap:9px;font-size:14px;color:#3e4bab;line-height:1.5}
 .check-box{display:inline-flex;align-items:center;justify-content:center;flex:0 0 20px;width:20px;height:20px;background:var(--blue);border-radius:4px;color:white;font-size:14px;font-weight:700}
 .experience-note{font-size:14px;color:var(--muted);line-height:1.5}
+
+.experience-matrix thead th:first-child,.experience-matrix tbody th{width:25%}
+.experience-matrix thead th:nth-child(2),.experience-matrix td:nth-child(2){width:37.5%}
+.experience-matrix td{color:#555b6c;vertical-align:top}
+.experience-matrix td:last-child{background:rgba(232,237,255,.35);color:#303957}
+@media(max-width:760px){
+ .experience-matrix tbody th,.experience-matrix td:nth-child(2){width:100%}
+ .experience-matrix td[data-label]:before{content:attr(data-label);display:block;font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#5c6684;margin-bottom:7px}
+ .experience-matrix td:last-child{background:transparent}
+}
